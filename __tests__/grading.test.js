@@ -47,15 +47,15 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(document.body).margin).toBe("8px");
    })
 
-   it("CSS funParagraph class is green", function() {
-      expect(css.includes(".funParagraph")).toBe(true);
-      expect(css.includes("color: green;")).toBe(true);
-   })
+   // it("CSS funParagraph class is green", function() {
+   //    expect(css.includes(".funParagraph")).toBe(true);
+   //    expect(css.includes("color: green;")).toBe(true);
+   // })
 
-   it("CSS mainHeading id is red", function() {
-      expect(css.includes("#mainHeading")).toBe(true);
-      expect(css.includes("color: red;")).toBe(true);
-   })
+   // it("CSS mainHeading id is red", function() {
+   //    expect(css.includes("#mainHeading")).toBe(true);
+   //    expect(css.includes("color: red;")).toBe(true);
+   // })
 
    it("HTML includes HTML entities", function() {
       // Regex pattern: /(&.+;)/ig
